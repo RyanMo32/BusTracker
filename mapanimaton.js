@@ -17,11 +17,11 @@ const busStops = [
 mapboxgl.accessToken = 'pk.eyJ1Ijoicnlhbm1vMzIiLCJhIjoiY2t3Z3J6MmNiMDZsbzJvbDVxb2JkendnYiJ9.NcCYs2AmQwTdkPCaXdFjSA';
 
 // This is the map instance
-var map = new mapboxgl.Map({
+let map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
   center: [-71.104081, 42.365554],
-  zoom: 14,
+  zoom: 15,
 });
 
 var marker = new mapboxgl.Marker()
